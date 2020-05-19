@@ -1,0 +1,53 @@
+{
+  "api": {
+    "base": "http://api.getsetgo.fitness/",
+    "in": "base_ind",
+    "me": "base",
+    "row": "base_usa",
+    "logout": "/API/v1/logout",
+    "signin": "/API/v1/sign-in",
+    "profile": "/API/v1/profile",
+    "getcoachlist": "/API/v1/searchtrainers/0",
+    "isValidToken": "/API/v1/is_valid_token",
+    "clientList": "/API/v1/clientsofLoggedinTrainer",
+    "clientDetails": "/API/v1/clientDetailsLoggedInTrainerPost",
+    "transactionlist": "/API/v1/getTransactionList"
+  },
+  "S3BucketURL": "https://gsg-image-uploads.s3-accelerate.amazonaws.com/webcontent",
+  "firebaseConfig": {
+    "credentials": {
+      "email": "gsgfitness@gmail.com",
+      "password": "qweR9876"
+    },
+    "in_region": {
+      "config": {
+        "apiKey": "AIzaSyDteQ-sFC8LQpWsN1x9SrGlI9kO6GWqJ5I",
+        "authDomain": "diet-tool-cbaea.firebaseapp.com",
+        "databaseURL": "https://diet-tool-cbaea.firebaseio.com",
+        "projectId": "diet-tool-cbaea",
+        "storageBucket": "diet-tool-cbaea.appspot.com",
+        "messagingSenderId": "789030174247"
+      }
+    },
+    "ae_region": {
+      "config": {
+        "apiKey": "AIzaSyCRY6MYlZ2DwIm_JIAdSzgeCXr35BYjutY",
+        "authDomain": "gsg-uae-data.firebaseapp.com",
+        "databaseURL": "https://gsg-uae-data.firebaseio.com",
+        "projectId": "gsg-uae-data",
+        "storageBucket": "gsg-uae-data.appspot.com",
+        "messagingSenderId": "68094594602"
+      }
+    },
+    "us_region": {
+      "config": {
+        "apiKey": "AIzaSyDIvxlK7Xz8XOxUQ_KiSTC9lXfbL0tF5nE",
+        "authDomain": "gsg-row-data.firebaseapp.com",
+        "databaseURL": "https://gsg-row-data.firebaseio.com",
+        "projectId": "gsg-row-data",
+        "storageBucket": "gsg-row-data.appspot.com",
+        "messagingSenderId": "306584214549"
+      }
+    }
+  }
+}
